@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "reset.css";
+@import "base.css";
+@import "header.css";
+@import "nav.css";
+@import "footer.css";
+@import "layout.css";
+
+.content-theme {
+  padding:3.3rem 0;
+  width: 100%;
+  font-size: 1.6rem;
+  .colored {
+    display: inline-block;
+    color: #29b078;
+  }
+}
+
+.body-left{
+  padding: 0;
+}
+.menu-links{
+  background-color: white;
+  h3 {
+    width: 100%;
+    text-align: center;
+    font:bold 1.6rem/3.5 "Microsoft Yahei";
+    border-bottom: 1px solid #e6e6e6;
+  }
+  ul {
+    padding:0 0 4rem 3.5rem;
+
+    font-size:1.4rem;
+    li{
+      margin:4rem 0 0;
+      list-style-image:url(img/circle.png);
+      &:hover {
+        list-style-image: url(img/disc.png);
+      }
+    }
+    a {
+      color: #29b078;
+      &:hover{
+        color: #ff650e;
+      }
+    }
+  }
+}
+
+.body-box {
+  margin-left: 2.4rem;
+  background-color: white;
+  .box-top{
+    margin: 0 auto;
+    font-size: 0;
+    border-bottom: 1px solid #e6e6e6;
+    .icon-tudou {
+      padding:0 0.5rem;
+    }
+    p {
+      padding:4.5rem 6rem 4.5rem 0;
+      font: 1.4rem/1.5 "Microsoft Yahei";
+      color:#999;
+    }
+  }
+  .box-bottom {
+    padding-bottom:10rem;
+    margin-bottom:20rem;
+    font-size:0;
+    p{
+      padding:5rem 6rem 0 6rem;
+      font: 1.4rem/1.5 "Microsoft Yahei";
+      text-indent: 2.5rem;
+      color:#999;
+    }
+  }
+}

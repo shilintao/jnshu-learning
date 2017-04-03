@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+footer {
+    width: 100%;
+}
+
+/*底部导航栏*/
+.footer {
+    width: 100%;
+    color: white;
+    background: #26a26f;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.footer-three {
+    width: 100%;
+    padding: 0 11%;
+}
+
+.footer-left p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 1rem;
+}
+
+p.footer-info {
+    float: left;
+    font-size: 1.4rem !important;
+    padding-top: 5.5rem;
+    line-height: 1.3rem;
+}
+
+.footer-left .verticalline {
+    padding-right: 1rem;
+    margin-right: 0.9rem;
+    border-right: 2px solid white;
+}
+
+.footer-center p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 2rem;
+}
+
+.footer-center ul {
+    overflow: hidden;
+}
+
+.footer-center ul li {
+    float: left;
+    margin: 1rem 0;
+    padding-right: 3.4rem;
+    list-style: none;
+}
+
+.footer-right p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-bottom {
+    width: 100%;
+    margin-top: 2rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 3rem;
+    border-top: 1px #FFFFFF solid;
+}
+
+.footer-about, .footer-contact {
+    padding-right: 2.6%;
+    border-right: 2px solid white;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.corp-box {
+    width: 100%;
+    background-color: #26a26f;
+    text-align: center;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+    color: #fff;
+}

@@ -1,0 +1,136 @@
+html{
+    font-size:62.5%;
+    font-family: "Microsoft YaHei UI";
+    background-color: white;
+}
+body{
+    margin:0;
+    min-width: 400px;
+}
+@media screen and (max-width:1280px){   html{font-size:62.5%;}  }
+@media screen and (max-width:800px){    html{font-size:39%; }  }
+@media screen and (max-width:640px){    html{font-size:31.25%; }  }
+header{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
+    padding:2.4rem 3rem;
+    font-size:3.6rem;
+    background-color: #5fc0cd;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+header img {
+    width: 2.8rem;
+    height:4rem;
+}
+main{
+    overflow: hidden;
+    margin-top:7rem;
+    background: #ffffff;
+    width: 100%;
+}
+.userinfo{
+    width: 100%;
+    padding-top:9%;
+    padding-bottom:29%;
+    background-image: url(image/background.png);
+    background-size: cover;
+    color: #fff;
+}
+.userinfo>img {
+    float: left;
+    margin-left: 5%;
+    width:20%;
+}
+.info{
+    float: left;
+    margin-left:5%;
+    margin-top:2%;
+}
+.name{
+    font-size:3.2rem;
+}
+.location{
+    font-size:2.4rem;
+}
+.skill{
+    font-size: 3.2rem;
+}
+.title{
+    padding: 3.5rem 2.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.title span{
+    padding-left:2.4rem;
+    border-left: 3px solid #5fc0cd;
+}
+.list{
+    padding-left:3rem;
+    font-size:3.2rem;
+}
+.list li{
+    position: relative;
+    padding:3.5rem 2.5rem;
+    border-bottom:1px solid #ccc;
+    list-style-type:none;
+}
+.home{
+    padding-left:2.5rem;
+    padding-right:2rem;
+    border-right: 1px solid #ccc;
+}
+.lunch{
+    padding-left:1.5rem;
+}
+.label{
+    display: inline-block;
+    padding:0 2.5rem 0;
+    color: #999999;
+    border-right: 1px solid #ccc;
+}
+.item{
+    display: inline-block;
+    padding:0 2.5rem 0;
+    color: #333333;
+}
+.price{
+    color:#e26163;
+
+}
+.job{
+    font-size:2.5rem;
+    width:50%;
+}
+footer{
+    display: flex;
+    padding:1rem;
+}
+footer button{
+    flex:1;
+    height:5.5rem;
+    width:50%;
+    font-size:3.4rem;
+    border-radius:1rem;
+}
+.message{
+    background-color: white;
+    border:2px solid #5fc0cd;
+    color: #5fc0cd;
+    outline:none;
+}
+.phone{
+    margin-right:1.1rem;
+    margin-left:1.1rem;
+    background-color: #5fc0cd;
+    color:white;
+    outline:none;
+}

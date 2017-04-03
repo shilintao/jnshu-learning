@@ -1,0 +1,361 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+/*header*/
+.header {
+    padding: 0 11%;
+    background-color: #1d7ad9;
+}
+
+.header .telenumber {
+    float: left;
+    padding: 1.3rem 0;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.header div {
+    float: right;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.header div a {
+
+    padding: 1.3rem;
+    text-align: center;
+    color: white;
+    border-left: 1px solid white;
+}
+
+.header div a:hover {
+    color: black;
+    background: white;
+}
+
+/*导航*/
+.navbar-toggle {
+    margin: 1rem 2rem;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle, .navbar-default, .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default, .navbar-toggle, .icon-bar {
+    background-color: #1d7ad9;
+}
+
+.navbar-default {
+    width: 100%;
+    padding: 2rem 11%;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 0;
+}
+
+#navbar {
+    padding: 0;
+}
+
+#navbar .navbar-nav {
+    float: right;
+}
+
+#navbar a {
+    padding: 1.4rem 1.6rem;
+    margin-left: 3.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: black;
+    background: white;
+    border-radius: 0.8rem;
+}
+
+#navbar a:hover {
+    color: white;
+    background: #1d7ad9;
+}
+/*流程*/
+.container {
+    width: 100%;
+    padding: 0 11%;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+}
+
+.steps .order {
+    float: right;
+    width: 100%;
+    max-width: 63.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.order div {
+    float: left;
+    padding: 0 11%;
+    margin-top: 5rem;
+    height: 0.6rem;
+    text-align: center;
+    width: 25%;
+    background: #ccc;
+}
+
+.order .active {
+    background: #ff7f02;
+}
+
+.order p {
+    position: relative;
+    top: -1.2rem;
+    width: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+    color: white;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.order .active p {
+    background: #ff7f02;
+}
+
+.steps ol {
+    float: right;
+    width: 100%;
+    max-width: 63.4rem;
+    padding: 0;
+    margin: 3rem 0;
+    font-size: 1.8rem;
+    list-style: none;
+}
+
+.steps li {
+    float: left;
+    width: 25%;
+    text-indent: -0.4rem;
+    text-align: center;
+    color: #ccc;
+}
+
+.steps .active {
+    color: #ff7f02;
+}
+/*表单*/
+.characters h4 {
+    padding-left:0.5rem;
+    margin-bottom:1.5rem;
+    font-size:2.2rem;
+    border-left:4px solid #1d7ad9;
+}
+.characterbox {
+    border:1px solid #e8e8e8;
+}
+.characterbox1 {
+    border-radius:5px 5px 0 0;
+}
+.character {
+    color: #1d7ad9;
+    font-size:1.8rem;
+    background: #f3f3f3;
+}
+.character img {
+    float: left;
+    padding:1.5rem 1rem 1.5rem 1.8rem;
+}
+.character p {
+    padding:1.5rem 0;
+}
+.cha-radio {
+    padding-left:1.3rem;
+    font-size:1.8rem;
+    color: #8b8c8c;
+    background: #fbfcff;
+}
+.higherbox {
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.cha-label {
+    display: inline-block;
+    margin:3rem;
+    cursor: pointer;
+}
+/*.outradius {
+    margin-left:3rem;
+}*/
+.regular-radio {
+    display: none;
+}
+.demo-radioInput {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:1.5rem;
+    width:1.8rem;
+    height:1.8rem;
+    border:1px solid #d6d6d6;
+    border-radius:50%;
+    background: #f8f9fb;
+}
+.regular-radio:checked + .demo-radioInput:after {
+    display: inline-block;
+    height:1.8rem;
+    width:1.8rem;
+    background-color:#f8f9fb;
+    border:0.7rem solid #1d7ad9;
+    border-radius:50%;
+    content: "";
+}
+.cha-details {
+    float: right;
+    height:3.8rem;
+    padding:2rem 1.6rem 4rem;
+}
+.cha-details label {
+    margin:0;
+    padding:0;
+    height:3.8rem;
+}
+.cha-radio .bigbox {
+    margin-top:-2.5rem;
+}
+select.form-control {
+    height:3.8rem;
+    font-size:1.4rem;
+    padding:0.6rem 5.4rem 0.6rem 1.8rem;
+    color: #999;
+    border:1px solid #e8e8e8;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select.form-control::-ms-expand {
+    display: none;
+}
+.cha-arrow {
+    display: inline-block;
+    position: relative;
+    top:-3.3rem;
+    left:9.2rem;
+    width:2.4rem;
+    height:2.8rem;
+    background: #1d7ad9;
+    border-radius:0.5rem;
+}
+.downarrow {
+    display: inline-block;
+    margin:45% 26%;
+    width:0;
+    height:0;
+    border-left:0.6rem solid transparent;
+    border-right:0.6rem solid transparent;
+    border-top:0.85rem solid white;
+}
+.rule-down {
+    margin-top:-3rem;
+}
+.rule-details {
+    margin:2rem 3rem;
+}
+.rule-detail {
+    margin-left:0.5rem;
+    width:7rem;
+}
+
+.nextstep {
+    margin-bottom: 5rem;
+    text-align: center;
+    border:1px solid #e8e8e8;
+}
+.nextstep button {
+    padding:1.4rem 5.2rem;
+    margin:14.2rem 0 9.6rem;
+    color: white;
+    font-size:2.4rem;
+    background: #e15053;
+    border-radius:5px;
+}
+/*footer*/
+.footer {
+    font-size:1.4rem;
+    color: #999;
+}
+.footer a {
+    font-size:1.4rem;
+    color: #999;
+}
+.footer a:hover {
+    color: #1d7ad9;
+}
+.footer-top {
+    padding:6.8rem 10% 4rem;
+}
+.footer-left p {
+    font-size:1.8rem;
+}
+.footer-middle ul {
+    overflow: hidden;
+    padding-left:4rem;
+}
+.footer-middle ul li {
+    float: left;
+    padding:0.5rem 4rem 1.8rem 0;
+}
+.footer img {
+    float: right;
+    max-width:8rem;
+}
+.footer-bottom {
+    width:100%;
+    height:3rem;
+    text-align: center;
+    font-size:1.4rem;
+    color: #fff;
+    line-height:3rem;
+    background: #1d7ad9;
+}
+
+/*手机屏幕适配*/
+@media screen and (max-width:767px) {
+    html {
+        font-size:50%;
+    }
+    .header {
+        width:100%;
+        padding:0.5%;
+    }
+    .navbar-default {
+        width:100%;
+        padding:2rem 0;
+    }
+    #navbar .navbar-nav {
+        float: none;
+    }
+    #navbar ul {
+        width:100%;
+    }
+    #navbar ul li{
+        width:100%;
+    }
+    #navbar a {
+        margin:0;
+        padding:2rem 0;
+        font-size:1.6rem;
+        text-align: center;
+        color: black;
+        border-radius:0;
+    }
+    .footer-middle ul {
+        padding:1rem 0 0;
+    }
+}

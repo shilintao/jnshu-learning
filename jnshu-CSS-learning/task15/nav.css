@@ -1,0 +1,60 @@
+.navbar{
+	background: #29b078;
+}
+.navbar  a {
+	display: inline-block;
+	padding: 4rem 3.5rem 3.6rem;
+	font-size: 1.6rem;
+	color: white;
+	border-bottom: 4px solid transparent;
+}
+.navbar a:hover {
+	border-bottom: 4px solid #fefefe;
+}
+@media screen and (min-width: 767px){
+	.dropdown {
+		display:none;
+	}
+}
+@media screen and (max-width: 767px){
+	.navbar-normal {
+		display:none;
+	}
+}
+
+/* 下拉菜单内容，设置为隐藏 */
+.dropdown-content {
+	display:none;
+	width:100%;
+}
+
+/* 下拉按钮样式 */
+.dropbtn{
+	font-size:16px;
+	padding:3.8rem 1.5rem;
+	border:none;
+	background:transparent;
+	cursor:pointer;
+}
+/* 鼠标移入后显示下拉菜单 */
+.dropdown:hover .dropdown-content{
+	display:block;
+	text-align: center;
+}
+
+/* 下拉菜单链接的样式 */
+.dropdown-content a{
+	color: white;
+	text-decoration:none;
+	padding:12px 15px;
+	display:block;
+	border-bottom: none;
+}
+
+
+/* 鼠标移入后修改链接的下划线 */
+.dropdown-content a:hover{
+	border-bottom: none;
+}
+
+

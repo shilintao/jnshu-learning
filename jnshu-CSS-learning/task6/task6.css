@@ -1,0 +1,175 @@
+html {
+    font-size: 62.5%;
+}
+body{
+    max-width: 72rem;
+    margin: 0 auto;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    position: fixed;
+    top:0;
+    width:100%;
+    max-width:72rem;
+    z-index: 1;
+}
+.top {
+    font-size:3.4rem;
+    position: relative;
+    background-color: #5FC0CD;
+    overflow: hidden;
+    height: 9rem;
+}
+/*header内元素垂直居中*/
+.top div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top .nav-div {
+    /*使header的胶囊式标签页水平居中，兼容ie8以上浏览器*/
+    display: table;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*header map图标定位*/
+.top .map-div{
+    position: absolute;
+    right: 4%;
+}
+/*调整header胶囊式标签页的样式*/
+.nav-pills>li+li {
+    margin-left: -3.8rem;
+}
+.nav-pills>li>a{
+    padding: 1.5rem 2rem;
+    border-radius: .8rem;
+}
+.nav-pills>li.inactive>a{
+    background-color: #55A8B3;
+    color: white;
+}
+.nav-pills>li.active>a {
+    background-color: white;
+    color: #5FC0CD;
+}
+
+/*调整下拉菜单样式*/
+.nav-tabs {
+    background: #ffffff;
+    font-size:2.8rem;
+}
+.nav-tabs li {
+    width: 33.3%;
+    text-align: center;
+    border-bottom: 1px solid #E1E5E7;
+    padding: 5px 0;
+}
+.dropdown-menu li {
+    width:100%;
+}
+.nav-tabs .btn {
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #AFBAC0;
+}
+.btn .caret {
+    float: right;
+    margin-top:.8rem;
+}
+.mid-drop {
+    border-left: 1px solid #E1E5E7;
+    border-right: 1px solid #E1E5E7;
+}
+
+/*调整信息表格样式*/
+main {
+    margin-top: 14rem;
+}
+.price {
+    padding: 2.5rem 0;
+    text-align: right;
+}
+.price .money {
+    vertical-align: middle;
+    color: red;
+}
+.price .point {
+    color: #5FC0CD;
+    margin-left: 1rem;
+    font-size: 3rem;
+    vertical-align: middle;
+}
+.row .place {
+    background: url(image/sprite.png) 0 0  no-repeat;
+    background-size: 1.7rem;
+    height: 1.5rem;
+    width: 1.3rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.row {
+    padding: 1rem 0;
+    border-bottom: 1px solid #E1E5E7;
+}
+.row p{
+    display: inline-block;
+    text-indent: 2.3rem;
+    margin-bottom: 0;
+}
+.row .data-p {
+    background:url(image/sprite.png) 0 -1.7rem no-repeat ;
+    background-size: 1.7rem;
+    height:1.7rem;
+    width:1.7rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.row div {
+    overflow:hidden; /*不显示超过对象宽度的内容*/
+    white-space:nowrap; /*限制在一行内显示所有文本*/
+}
+.col-sm-8 div, .col-xs-8 div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.date {
+    text-indent: 3.3rem;
+    color: black;
+}
+
+/*底部菜单栏样式*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    max-width:72rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFB;
+}
+footer a {
+    display: block;
+}
+footer .edit {
+    margin: 1rem 14%;
+}
+footer img {
+    width: 60%;
+    max-width:100%;
+}
+.home,.mine {
+    margin-top: 1rem;
+}
+.home {
+    color: #5FC0CD;
+}
+.mine,.container-fluid{
+    color: #AFBAC0;
+}

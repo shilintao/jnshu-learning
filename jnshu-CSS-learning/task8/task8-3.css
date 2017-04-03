@@ -1,0 +1,388 @@
+/*全局*/
+html {
+    font-size: 62.5%;
+    font-family: Microsoft YaHei, serif;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 16.67%;
+    }
+}
+
+.body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1980px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*header*/
+header {
+    width: 100%;
+}
+
+header .top {
+    padding-left: 19%;
+    padding-right: 19%;
+}
+
+/*header-1*/
+.header-top {
+    max-width: 1980px;
+    margin: 0 auto;
+}
+
+.header-top span {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    color: #1db176;
+}
+
+.header-icon {
+    float: right;
+}
+
+.header-icon-weixin {
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background: url(images/icon1.png) -57px 0;
+    margin: 12px 6px;
+}
+
+.header-icon-qq {
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background: url(images/icon1.png) -28px 0;
+    margin: 12px 6px;
+}
+
+.header-icon-weibo {
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background: url(images/icon1.png) 0 0;
+    margin: 12px 6px;
+}
+
+.login {
+    font-size: 1.8rem;
+    line-height: 4rem;
+    float: right;
+}
+
+.login a {
+    color: #000;
+}
+
+.header-dot {
+    color: #29b078;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+
+/*header-2*/
+.navbar-toggle {
+    margin-top: 4rem;
+}
+
+.nav-box {
+    background-color: #29b078;
+}
+
+.navbar {
+    background-color: #29b078;
+    border-radius: 0;
+    border: 0;
+    padding-left: 19%;
+    /*padding-right:16%;*/
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 0;
+    }
+    .navbar-nav {
+        margin-right: 50% !important;
+    }
+}
+
+.navbar-header {
+    height: 97px;
+}
+
+.nav {
+    margin: 24px 0;
+    float: right;
+}
+
+.navbar-nav {
+    margin-right: 19%;
+    font-size: 1.6rem;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f5f5f5;
+}
+
+.nav li {
+    border-bottom: 3px solid #29b078;
+}
+
+.nav li:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.nav span {
+    color: #fff;
+}
+
+/*main*/
+main > img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.enterprise {
+    display: inline-block;
+    padding: 4%;
+    margin-bottom: 3%;
+}
+
+.enterprise > p {
+    font-size: 1.8rem;
+}
+
+.enterprise > p > span {
+    color: #72c49e;
+}
+
+.enterprise-all > span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.enterprise-all {
+    float: left;
+    margin-top: 4%;
+    width: 25%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 #ddd;
+}
+
+.enterprise-all ul {
+    flex-direction: column;
+    padding: 0 0 3rem 3rem;
+    font-size: 1.5rem;
+}
+
+.enterprise-all span {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid lightgray;
+}
+
+.enterprise-all ul li a {
+    color: #72c49e;
+}
+
+.enterprise-all ul li {
+    list-style: none;
+    margin: 2rem auto 0;
+    list-style-image: url(images/circle1.png);
+}
+
+.enterprise-all ul li a:hover, .enterprise-all ul li a:focus {
+    color: orange;
+}
+
+.enterprise-all ul li a:link {
+    text-decoration: none;
+}
+
+.enterprise-all ul li:hover, .enterprise-all ul li:focus {
+    list-style-image: url(images/circle.png);
+}
+.en-des {
+    margin-top: 5%;
+    width: 70%;
+    float: right;
+    color: #999;
+    box-shadow: 0 1px 4px 0 #ddd;
+}
+.tudou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.tudou-detail {
+    padding: 4.5rem 6rem 4.5rem 0;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.tudou-des p {
+    padding: 4% 4% 0 4%;
+}
+
+@media screen and (max-width: 767px) {
+    .enterprise-all {
+        width: 100%;
+    }
+
+    .en-des {
+        width: 100%;
+    }
+}
+
+/*footer*/
+footer {
+    width: 100%;
+}
+
+/*底部导航栏*/
+.footer {
+    width: 100%;
+    color: white;
+    background: #26a26f;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.footer-three {
+    width: 100%;
+    padding: 0 11%;
+}
+
+.footer-left p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 1rem;
+}
+
+p.footer-info {
+    float: left;
+    font-size: 1.4rem !important;
+    padding-top: 5.5rem;
+    line-height: 1.3rem;
+}
+
+.footer-left .verticalline {
+    padding-right: 1rem;
+    margin-right: 0.9rem;
+    border-right: 2px solid white;
+}
+
+.footer-center p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 2rem;
+}
+
+.footer-center ul {
+    overflow: hidden;
+}
+
+.footer-center ul li {
+    float: left;
+    margin: 1rem 0;
+    padding-right: 3.4rem;
+    list-style: none;
+}
+
+.footer-right p {
+    font-size: 1.6rem;
+    padding-top: 3.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-bottom {
+    width: 100%;
+    margin-top: 2rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 3rem;
+    border-top: 1px #FFFFFF solid;
+}
+
+.footer-about, .footer-contact {
+    padding-right: 2.6%;
+    border-right: 2px solid white;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.corp-box {
+    width: 100%;
+    background-color: #26a26f;
+    text-align: center;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+    color: #fff;
+}
