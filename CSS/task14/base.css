@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html {
+	font-size: 62.5%;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",serif;
+}
+
+/* 超小屏幕（平板，小于等于 768px） */
+@media screen and (max-width:767px) {
+	html {
+		font-size: 50%;
+	}
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media screen and (min-width:768px) {
+	html {
+		font-size:50%;
+	}
+	.container{
+		width:768px;
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media screen and (min-width:992px) {
+	html {
+		font-size:50%;
+	}
+	.container{
+		width:992px;
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media screen and (min-width:1200px) {
+	html {
+		font-size: 62.5%;
+	}
+	.container{
+		width:1200px;
+	}
+}
+
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*font-size: 3.2rem;*/
+}
+
+button {
+	cursor: pointer;
+}
+

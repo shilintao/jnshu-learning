@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="task10.css">
+    <script src="js/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <title>task10-51包装</title>
+    <link rel="stylesheet" href="../task10相关/task10（cpk)/task10.css">
+</head>
+<body>
+<!--header-->
+<div class="header clearfix">
+    <p class="telenumber">客服热线：010-594-78634</p>
+    <div class="login">
+        <a href="#">登录</a>
+        <a href="#">注册</a>
+    </div>
+</div>
+<!--导航-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+        <ul class="nav navbar-nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">在线定制</a></li>
+            <li><a href="#">标准箱</a></li>
+            <li><a href="#">品质保障</a></li>
+        </ul>
+    </div>
+</nav>
+<!--流程-->
+<div class="container">
+    <div class="steps row clearfix">
+        <div class="order">
+            <div class="active"><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+            <div><p>4</p></div>
+        </div>
+        <ol>
+            <li class="active">1.定制纸箱</li>
+            <li>2.选择数量</li>
+            <li>3.上传附件</li>
+            <li>4.确认下单</li>
+        </ol>
+    </div>
+    <!--箱型-->
+    <div class="characters">
+        <h4>请您按照以下步骤来定制您的纸箱</h4>
+        <div class="characterbox characterbox1">
+            <div class="character clearfix">
+                <img src="images/box.png">
+                <p>选择箱型</p>
+            </div>
+            <form class="cha-radio clearfix">
+                <label class="cha-label" for="optionsRadios1">
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" class="regular-radio"
+                           checked>
+                    <span class="demo-radioInput"></span>对口箱
+                </label>
+                <label class="cha-label" for="optionsRadios2">
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" class="regular-radio">
+                    <span class="demo-radioInput"></span>飞机盖
+                </label>
+                <label class="cha-label" for="optionsRadios3">
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" class="regular-radio">
+                    <span class="demo-radioInput"></span>天地盖
+                </label>
+                <div class="cha-details">
+                    <label>
+                        <select class="form-control">
+                            <option>查看详情</option>
+                            <option>盒子尺寸</option>
+                            <option>材料构成</option>
+                        </select>
+                        <span class="cha-arrow">
+                            <span class="downarrow"></span>
+                        </span>
+                    </label>
+                </div>
+            </form>
+        </div>
+        <!--尺寸-->
+        <div class="characterbox">
+            <div class="character clearfix">
+                <img src="images/size.png">
+                <p>确定尺寸</p>
+            </div>
+            <form>
+                <div class="cha-radio clearfix" style="padding-left: 4.2rem;">
+                <label class="cha-labe1 outradius" for="optionsrule1">
+                    <input type="radio" name="optionsrules" id="optionsrule1" value="option1" class="regular-radio"
+                           checked>
+                    <span class="demo-radioInput"></span>外径
+                </label>
+                <label class="rule-details" style="margin-left:6rem;">
+                    长<input type="text" class="rule-detail">mm
+                </label>
+                <label class="rule-details">
+                    宽<input type="text" class="rule-detail">mm
+                </label>
+                <label class="rule-details">
+                    高<input type="text" class="rule-detail">mm
+                </label>
+                </div>
+<!--            </form>
+            <form class="cha-radio clearfix rule-down">-->
+                <div class="cha-radio rule-down clearfix">
+                    <label class="cha-label" for="optionsrule2">
+                        <input type="radio" name="optionsrules" id="optionsrule2" value="option2" class="regular-radio">
+                        <span class="demo-radioInput"></span>内径
+                    </label>
+                    <label class="rule-details">
+                        长<input type="text" class="rule-detail">mm
+                    </label>
+                    <label class="rule-details">
+                        宽<input type="text" class="rule-detail">mm
+                    </label>
+                    <label class="rule-details">
+                        高<input type="text" class="rule-detail">mm
+                    </label>
+                    <div class="cha-details bigbox">
+                        <label>
+                            <select class="form-control">
+                                <option>查看详情</option>
+                                <option>长度分类</option>
+                                <option>参照标准</option>
+                            </select>
+                            <span class="cha-arrow">
+                        <span class="downarrow"></span>
+                    </span>
+                        </label>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!--材质-->
+        <div class="characterbox">
+            <div class="character clearfix">
+                <img src="images/scissors.png">
+                <p>选择材质</p>
+            </div>
+            <form class="cha-radio higherbox clearfix">
+                <label class="cha-label" for="optionsmat1">
+                    <input type="radio" name="optionsmat" id="optionsmat1" value="option1" class="regular-radio"
+                           checked>
+                    <span class="demo-radioInput"></span>三层A瓦优质
+                </label>
+                <label class="cha-label" for="optionsmat2">
+                    <input type="radio" name="optionsmat" id="optionsmat2" vlaue="option2" class="regular-radio">
+                    <span class="demo-radioInput"></span>三层A瓦优质
+                </label>
+                <label class="cha-label" for="optionsmat3">
+                    <input type="radio" name="optionsmat" id="optionsmat3" value="option3" class="regular-radio">
+                    <span class="demo-radioInput"></span>三层A瓦优质
+                </label>
+                <label class="cha-label" for="optionsmat4">
+                    <input type="radio" name="optionsmat" id="optionsmat4" value="option4" class="regular-radio">
+                    <span class="demo-radioInput"></span>三层A瓦优质
+                </label>
+                <label class="cha-label" for="optionsmat5">
+                    <input type="radio" name="optionsmat" id="optionsmat5" value="option5" class="regular-radio">
+                    <span class="demo-radioInput"></span>三层A瓦优质
+                </label>
+                <div class="cha-details">
+                    <label>
+                        <select class="form-control">
+                            <option>查看详情</option>
+                            <potion>等级分类</potion>
+                            <option>质量评定</option>
+                        </select>
+                        <span class="cha-arrow">
+                    <span class="downarrow"></span>
+                </span>
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="nextstep">
+            <button>下一步</button>
+        </div>
+    </div>
+</div>
+<div class="footer clearfix">
+    <div class="footer-top clearfix">
+        <div class="footer-left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <p>51包装网— 纸箱包装首选服务平台</p>
+        </div>
+        <div class="footer-middle col-lg-4 colo-md-4 col-sm-4 col-xs-12">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">配送流程</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">下单指南</a></li>
+                <li><a href="">媒体介绍</a></li>
+            </ul>
+        </div>
+        <div class="footer-right col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <img src="images/qrcode.png">
+            <p>TEL：400-0000-000<br/>
+                企业QQ：123456789<br/>
+                微信号：XXXXXXX</p>
+        </div>
+    </div>
+    <div class="footer-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p>北京五一包装科技有限公司Copyright&nbsp;©201551baozhuang.com015&emsp;&ensp;All&nbsp;rights&nbsp;reserved.&emsp;&ensp;京icp备99999999-1</p>
+    </div>
+</div>
+</body>
+</html>

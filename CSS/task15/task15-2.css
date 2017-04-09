@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import "reset.css";
+@import "base.css";
+@import "header.css";
+@import "nav.css";
+@import "footer.css";
+@import "layout.css";
+.theme {
+  padding: 3.2rem 0;
+  margin: 0 1rem;
+  font: bold 1.6rem/1 "Microsoft Yahei";
+  border-bottom: 1px solid #d0d6d9;
+}
+.theme .career {
+  display: inline-block;
+  color: #29b078;
+}
+.buttons {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 0 1rem;
+  font-size: 0;
+  border-bottom: 1px solid #edf1f2;
+}
+.buttons p {
+  display: inline-block;
+  color: #a1a1a1;
+  font-size: 1.4rem;
+}
+.buttons button {
+  padding: 0.3rem;
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  background-color: #fafafa;
+  border: none;
+}
+.buttons button:hover {
+  color: white;
+  background: #29b078;
+}
+.courses {
+  padding: 0 1rem;
+}
+.course {
+  margin: 3rem 0;
+  font-size: 1.4rem;
+  background-color: #fff;
+}
+.course .tr {
+  float: left;
+  width: 100%;
+}
+.course .gray {
+  color: #999;
+}
+.course .pd0 {
+  padding: 0;
+}
+.course .job {
+  float: left;
+}
+.course .job img {
+  padding: 2.1rem 2%;
+}
+.course .job h3 {
+  margin: 3.5rem 0 1.5rem 0;
+  font: bold 1.6rem/1 "Microsoft Yahei";
+}
+.course .job p {
+  word-break: break-all;
+  line-height: 1.4;
+}
+.course .td {
+  text-indent: 0.2rem;
+  line-height: 3;
+  border: 1px solid #edf1f2;
+  border-left: none;
+  border-bottom: none;
+}
+.course .td img {
+  margin-left: 0.8rem;
+  vertical-align: text-top;
+  width: 13px;
+}
+.course .td span {
+  color: #f01400;
+}
+.course .pay-left {
+  text-align: center;
+  line-height: 90px;
+  border: 1px solid #edf1f2;
+  border-bottom: none;
+}
+.course .pay-right {
+  text-align: center;
+  line-height: 30px;
+}
+.course .pay-right div {
+  border-top: 1px solid #edf1f2;
+}
+.course:hover .introduction {
+  width: 92%;
+  height: 88.5%;
+}
+.course .introduction {
+  position: absolute;
+  top: 3rem;
+  width: 0;
+  height: 0;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: white;
+  -webkit-transition: 1s height;
+  transition: 1s height;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.76);
+}
+.course .introduction h3 {
+  padding: 7rem 0 4rem 0;
+  text-align: center;
+}
+.course .introduction p {
+  padding: 0 4.2rem;
+  text-indent: 1.5rem;
+  font-size: 1.6rem;
+  text-align: left;
+}

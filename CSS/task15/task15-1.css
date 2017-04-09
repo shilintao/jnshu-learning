@@ -1,0 +1,183 @@
+@charset "utf-8";
+@import "reset.css";
+@import "base.css";
+@import "header.css";
+@import "nav.css";
+@import "carousel.css";
+@import "footer.css";
+@import "layout.css";
+h4 {
+  padding: 5rem 0;
+  text-align: center;
+  font: bold 1.8rem/2.5 "Microsoft Yahei";
+  letter-spacing: 1px;
+}
+.dominant-box {
+  padding: 16.3rem 4rem 0 4rem;
+}
+.dominant-box .icon-tag {
+  display: inline-block;
+  height: 62px;
+}
+.dominant-box h5 {
+  margin: 3.4rem 0;
+  font-size: 1.8rem;
+}
+.dominant-box p {
+  font: 1.6rem/1.4 "Microsoft Yahei";
+}
+.outputting {
+  padding: 4.3rem 0 5rem 7rem;
+  margin: 15rem 0 0;
+  border-left: 1px dashed #dedede;
+}
+.outputting.flexbox {
+  align-items: flex-start;
+}
+.outputting h6 {
+  margin: 3.2rem 0 1.9rem 0;
+  font-size: 1.8rem;
+  color: #26a26f;
+}
+.outputting p {
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 767px) {
+  .outputting {
+    padding: 4.3rem 0 5rem;
+    margin: 5rem 0;
+    border-left: 1px dashed #dedede;
+  }
+  .outputting.flexbox {
+    align-items: center;
+  }
+  .outputting h6 {
+    margin: 3.2rem 0 1.9rem 0;
+    font-size: 1.8rem;
+    color: #26a26f;
+  }
+  .outputting p {
+    font-size: 1.8rem;
+  }
+}
+.learnstep {
+  font-size: 0;
+}
+.learnstep .steps {
+  padding: 4.6rem 0.5rem;
+}
+.learnstep .steps h5 {
+  display: inline-block;
+  padding: 2.64rem 3.1rem;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  color: #29b078;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 0 #ddd;
+}
+.learnstep p {
+  display: inline-block;
+  margin-right: 1.2rem;
+  width: 15.88rem;
+  font: 1.4rem/1.5 "Microsoft Yahei";
+  color: #999;
+}
+.outstander {
+  height: 43rem;
+}
+.outstander .intros {
+  padding: 0 3rem;
+  margin-left: -1.5rem;
+  height: 37rem;
+  width: 27.4rem;
+  font-size: 0;
+  background: white;
+}
+.outstander .intros .photo {
+  margin: 2.1rem 0;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.outstander .intros .photo img {
+  max-width: 150%;
+}
+.outstander .intros h5 {
+  font: 1.8rem/4 "Microsoft Yahei";
+}
+.outstander .intros p {
+  font: 1.6rem/1.5 "Microsoft Yahei";
+  color: #999;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 0;
+}
+.circles .circle {
+  display: inline-block;
+  width: 1.7rem;
+  height: 1.7rem;
+  background: #fff;
+  margin: 0 0.5rem;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.circles .circle:hover {
+  background: #29b078;
+}
+.companies {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 97.4%;
+  margin: 7rem 3rem 7rem 0;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 4px 0 #ddd;
+}
+.companies .imgcover {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem 0;
+  height: 14.6rem;
+  width: 18.2rem;
+  overflow: hidden;
+}
+.companies .imgcover:hover {
+  border-radius: 3px;
+  box-shadow: 0 0 10px 2px #ddd;
+}
+.partners .imgcover:hover {
+  border-radius: 3px;
+  box-shadow: 0 0 10px 2px #ddd;
+}
+.youqinglianjie {
+  background: #fff;
+  padding: 0 10.8%;
+}
+.youqinglianjie ul {
+  padding: 0 1rem;
+}
+.youqinglianjie ul li {
+  float: left;
+  text-align: left;
+  margin: 0 2.7rem;
+  padding-bottom: 1.6rem;
+  width: 70px;
+  font-size: 1.4rem;
+  color: #999;
+  letter-spacing: 0.16rem;
+  list-style-type: disc;
+}
+.youqinglianjie a {
+  color: #999;
+  text-decoration: none;
+}
+.youqinglianjie a:hover {
+  border-bottom: 1px solid #26c06f;
+}
